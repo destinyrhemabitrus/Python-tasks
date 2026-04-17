@@ -13,8 +13,9 @@ if(amount >= 1000 and amount<=10000):
 elif(amount >= 10000 and amount<=50000):
     discount = (10/1000) * amount
 
-else(amount > 50000):
+elif(amount > 50000):
     discount = (20/1000) * amount
-    
+else:
+    print("Invalid input")
 print(dicount)
 
