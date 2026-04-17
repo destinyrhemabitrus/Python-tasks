@@ -4,19 +4,21 @@
 #if password is between 8 and 16 print strong
 #if password is above 16 print very strong
 
-password = int(input("Enter your password"))
+password = input("Enter your password")
  
-if(password >= 9 and password <=16):
+if(len(password)>= 9 and len(password) <=16):
     print("Strong")
 
-elif(password < 8):
+elif(len(password) < 8):
     print("very Weak")
 
-elif(password == 8):
+elif(len(password) == 8):
     print("Weak")
 
-elif(password > 16):
+elif(len(password) > 16):
     print("Very strong")
 
-password_checker.py
+
+
+
 
