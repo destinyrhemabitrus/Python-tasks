@@ -17,5 +17,7 @@ elif(amount > 50000):
     discount = (20/1000) * amount
 else:
     print("Invalid input")
-print(dicount)
+    
+print(discount)
+
 
